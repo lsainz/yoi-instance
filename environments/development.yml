@@ -1,0 +1,18 @@
+server:
+    host: localhost
+    port: 1337
+
+
+log:
+    request: true
+    response: true
+
+#Si no existe la BD deusto la crea cuando se ejecute. En la terminal de mongo si ponemos 
+mongo:
+    - name    : primary
+      host    : 127.0.0.1
+      port    : 27017
+      db      : deusto_db
+#       user    : db_user
+#       password: db_password
+
